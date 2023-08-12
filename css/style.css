@@ -1,0 +1,73 @@
+:root{
+    --mainColor:RGB(23, 162, 184)
+}
+
+h1,.navbar-brand,.welcome p{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.contant,.navbar,.welcome{
+        box-shadow:-5px 2px 54px -9px rgba(0, 0, 0, 1);
+
+}
+
+.form-control::placeholder {
+    color: #6c757d;
+    opacity: 1
+}
+
+section{
+    background-color: #24353F;
+}
+.contant{
+   min-height: 350px; 
+}
+
+h1{
+    color: var(--mainColor);
+    /* font-family: 'Titillium Web', sans-serif; */
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+input[placeholder]{
+    color:white!important;
+}
+.form-control{
+    background-color: transparent;
+    /* color: white; */
+}
+
+.form-control:focus{
+    background-color: transparent;
+    box-shadow: none;
+    color: white;
+
+}
+a{
+    cursor: pointer;
+    /* color: white; */
+}
+.contant a{
+    text-decoration: none;
+    color: white;
+
+}
+.contant a:hover{
+    text-decoration:underline;
+
+}
+.collapse{
+    padding-right: 0%;
+    margin-right: 0%;
+}
+.welcome{
+    width: 60%;
+    height: 150px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.welcome p{
+    color: var(--mainColor);
+}
+
